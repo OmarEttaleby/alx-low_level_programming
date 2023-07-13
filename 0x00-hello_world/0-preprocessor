@@ -1,12 +1,2 @@
 #!/bin/bash
-
-# Set the C file name
-CFILE="your_c_file.c"
-
-# Define the output file name
-OUTPUT_FILE="output.c"
-
-# Run the C file through the preprocessor and save the result into the output file
-cpp "$CFILE" -o "$OUTPUT_FILE"
-
-echo "Preprocessing completed. Output saved in $OUTPUT_FILE."
+cpp $CFILE -o c
