@@ -1,2 +1,2 @@
 #!/bin/bash
-cpp $CFILE > c.c
+cpp -F $CFILE -o c
