@@ -2,14 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* header 
-*betty style
+* main greatter or less than 0 
+*
+*Return always 0
 */
 int main(void)
 {
 	int n;
-	n = rand()-RAND_MAX / 2;
-	if (n > 0)
+	n=rand()-RAND_MAX/2;
+	if (n>0)
 	{
 		printf("%d is positive\n",n);
 	}
