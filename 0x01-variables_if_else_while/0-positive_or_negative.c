@@ -4,14 +4,12 @@
 
 #include <stdio.h>
 /**
-* main greatter or less than 0 
-*Return always 0
-*
+* main greatter or less than zerà 
+*Return always void
 */
 int main(void)
 {
 	int n;
-	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n>0)
