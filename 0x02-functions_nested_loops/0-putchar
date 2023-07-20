@@ -1,0 +1,22 @@
+#include "main.h"
+
+/**
+*main just for entry
+*for return is void empty
+*/
+
+int main(void)
+
+{
+
+	_putchar("_");
+	_putchar("p");
+	_putchar("u");
+	_putchar("t");
+	_putchar("c");
+	_putchar("h");	
+	_putchar("a");
+	_putchar("a");
+	return (0);
+
+}
