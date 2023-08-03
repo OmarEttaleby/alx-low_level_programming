@@ -3,6 +3,7 @@
 /**
 *_puts_recursion* il écrit un char suivi new line
 *@s: points sur le string
+*@putchar: affiche first char of string
 *return empty or void
 */
 
