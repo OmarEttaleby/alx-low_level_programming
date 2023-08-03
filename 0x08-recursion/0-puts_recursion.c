@@ -1,11 +1,16 @@
 #include "main.h"
 
 /**
-*_puts_recursion: il écrit un char suivi new line
-*@s: points sur le string
-*@putchar: affiche first char of string
-*return empty or void
-*/
+ *_puts_recursion - print a string with recursion
+ *@s: string that we need to print
+ *
+ *Return: no return
+ */
+
+
+
+
+
 
 void _puts_recursion(char *s)
 {
