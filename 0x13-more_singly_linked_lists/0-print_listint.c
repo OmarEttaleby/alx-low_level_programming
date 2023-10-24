@@ -1,10 +1,10 @@
 #include "lists.h"
 
 /**
- * print_listint - affiche tous les éléments d'une liste.
- * @h: tête de la liste.
+ * print_listint - affiche tous les éléments d'une liste
+ * @h: tête de la liste
  *
- * Retour: nombre de nœuds.
+ * Return: nombre de nœuds
  */
 size_t print_listint(const listint_t *h)
 {
